@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!--Header setting title of my Portfolio and linking reset.css and style.css files-->
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
 </head>
 
 <body>
-
+    <!--Navigation banner at the top of webpage with my name and navigation links -->
     <header class="header">
         <h1>Kevin Molyneaux<span class="header-hidden">'s Portfolio</span></h1>
         <nav> 
@@ -18,21 +19,22 @@
                 <li><a href="#about-me">About Me</a></li>
                 <li><a href="#my-portfolio">Portfolio</a></li>
                 <li><a href="#contact-me">Contact</a></li>
-                <li><a href="#GitHub">Github</a></li>
+                <li><a href="https://github.com/molyneauxk93" target="_blank">Github</a></li>
             </ul>
         </nav>
     </header>
 
+    <!--Added section with a background image and my about me card-->
     <section class="image-graphic">
 
         <section class="about-me"> 
             <section class="card">
-            <div class="card-header">
-                <img src="./assets/images/croppedJoshHeadshot2.jpg" alt="About Me Graphic"/> 
-                <h2>About Me</h2>
-            </div>
+                <div class="card-header">
+                    <img src="./assets/images/croppedJoshHeadshot2.jpg" alt="About Me Graphic"/> 
+                    <h2 id="about-me">About Me</h2>
+                </div>
 
-            <p>
+                <p>
 
                 Hi my name is Kevin Molyneaux, though I prefer to be called Josh! In my spare time i enjoy
                 Photography, working out, watching anime, playing video games, travelling and spending time 
@@ -40,43 +42,48 @@
                 and if you like what you see and have any questions feel free to contact me! Thanks for 
                 stopping by! 
 
-            </p>
+                </p>
             
             </section>
         </section>
 
     </section>
 
+    <!--Added section with header for my portfolio highlights as well as a paragraph with some detail-->
     <section class="about-portfolio">
-        <h3>My Portfolio</h3>
-        <p>Below are some projects that I have worked on so far. I believe that these projects
-            best highlight my abilities was a developer currently. If you are interested in seeing
-            more projects by me, please navigate to my GitHub! Thank you!
-        </p>
+        <h3 id="my-portfolio">My Portfolio Highlights !</h3>
+            <p>Below are some projects that I have worked on so far. I believe that these projects
+                best highlight my abilities was a developer currently. If you are interested in seeing
+                more projects by me, please navigate to my GitHub! Thank you!
+            </p>
 
     </section>
 
+    <!--Project Highlight cards section with cards of projects and one to navigate to additional projects-->
     <section class="projects">
 
-
+        <!--Horiseon Refactor Project Card-->
         <section class="card">
             <div class="card-header">
-                <img src="./assets/images/webpage.jpg" alt="Portfolio Graphic"/> 
-                    <h4>Horiseon Refactor Project</h4>
-                </div>
+                <img src="./assets/images/webpage.jpg" alt="Horiseon Graphic"/> 
+                <h4>Horiseon Refactor Project</h4>
+            </div>
     
             <p>
     
                 Horiseon Webpage Code Refactor Project!
     
             </p>
-                
+
+            <a href="">Launch</a>
+
         </section>
     
+        <!--Placeholder card shell for when I want to add more projects-->
         <section class="card">
              <div class="card-header">
-                    <img src="./assets/images/Handyman_Woodworke.jpg" alt="Portfolio Graphic"/> 
-                    <h4>Placeholder</h4>
+                <img src="./assets/images/Handyman_Woodworke.jpg" alt="Portfolio Graphic"/> 
+                <h4>Placeholder</h4>
              </div>
         
             <p>
@@ -84,13 +91,16 @@
             Check some of my projects that I have worked on so far!
         
             </p>
-                    
+
+            <a href="">Launch</a>
+
         </section>
 
+        <!--Placeholder card shell for when I want to add more projects-->
         <section class="card">
             <div class="card-header">
                 <img src="./assets/images/Handyman_Woodworke.jpg" alt="Portfolio Graphic"/> 
-                <h4>Placeholder</h4>
+                h4>Placeholder</h4>
             </div>
             
             <p>
@@ -98,9 +108,13 @@
             Check some of my projects that I have worked on so far!
             
             </p>
+
+            <a href="">Launch</a>
+
                         
         </section>
 
+        <!--Placeholder card shell for when I want to add more projects-->
         <section class="card">
             <div class="card-header">
                 <img src="./assets/images/Handyman_Woodworke.jpg" alt="Portfolio Graphic"/> 
@@ -112,55 +126,83 @@
             Check some of my projects that I have worked on so far!
                 
             </p>
+
+            <a href="">Launch</a>
                             
         </section>
 
+        <!--Portfolio Card for additional projects that are not in the highlights-->
         <section class="card">
             <div class="card-header">
                 <img src="./assets/images/portfolio.png" alt="Portfolio Graphic"/> 
-                <h4>GitHub</h4>
+                <h4>More Projects</h4>
             </div>
 
             <p>
 
-                If you missed it at the top of the page, you can get to my GitHub Repository here!
+                Click here to see some of my other projects!
 
             </p>
+
+            <a href="">Launch</a>
             
         </section>
 
 
     </section>
 
+    <!--Contact Me section heading-->
+    <section class="contact-me"> 
+
+        <h5 id="contact-me">Contact Me</h5>
+        
+    </section>
+
+    <!--Contact Me section cards with links to my Linkedin, Email, and Phone-->
     <section class="contact">
 
-        <section class="contact-me"> 
-            <img src=" " class=" " alt="Contact Me Graphic"/> 
-            <h5>Contact Me</h5>
-            <p>
+        <section class="card">
 
-                Click on the image below that corresponds with how you would like to contact me! 
+            <div class="card-header">
 
-            </p>
+                <img src="./assets/images/linkedin.png" alt="Linkedin Graphic"/> 
+                
+            </div>
+
+            <a href="">Linkedin</a> 
+
         </section>
 
-        <section class="contact-me"> 
-            <img src=" " class=" " alt="Linkedin Graphic"/> 
+        <section class="card">
+
+            <div class="card-header">
+
+                <img src="./assets/images/email.jpg" alt="Email Graphic"/> 
+                
+            </div>
+
+            <a href="">Email</a> 
+
         </section>
 
-        <section class="contact-me"> 
-            <img src=" " class=" " alt="Email Graphic"/> 
-        </section>
+        <section class="card">
 
-        <section class="contact-me"> 
-            <img src=" " class=" " alt="Phone Graphic"/> 
+            <div class="card-header">
+
+                <img src="./assets/images/telephone.jpg" alt="Email Graphic"/> 
+                
+            </div>
+
+            <a href="">Phone</a>  
+              
         </section>
 
     </section>
 
+    <!--Footer with heading showing created by-->
     <footer class="footer"> 
 
-        <h6>Made by ❤️️ Josh Molyneaux</h6> 
+        <h6>Created by 🤖 Josh Molyneaux</h6> 
         
     </footer>
 
