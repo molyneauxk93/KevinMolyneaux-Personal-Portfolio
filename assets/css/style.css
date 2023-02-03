@@ -52,6 +52,7 @@ body {
 .header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    flex-wrap:Wrap;
 }
 
 a {
@@ -82,7 +83,6 @@ p {
       rgba(103, 81, 83, 0.79) 0%,
       rgba(9, 1, 9, 0.471) 100%
     );
-    
 }
 
 .about-portfolio h3 {
@@ -92,6 +92,7 @@ p {
 
 .about-portfolio p {
     font-size: 20px;
+    flex-wrap:wrap;
 }
 
 /*Styling about me section with cards */
@@ -144,6 +145,7 @@ p {
     margin-bottom: 15px;
 }
 
+
 .card p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px;
@@ -174,6 +176,7 @@ p {
     display:flex;
     justify-content: center;
     padding-top: 30px;
+    flex-wrap:wrap;
 }
 
 .projects h4 {
@@ -189,6 +192,7 @@ p {
         rgba(210, 13, 29, 0.79) 90%
       );
     color: white;
+    flex-wrap:wrap;
     text-align: center;
     padding: 0 5px 5px 5px;
 }
@@ -203,6 +207,7 @@ p {
 .contact {
     display:flex;
     justify-content: center;
+    flex-wrap:wrap;
     background-image: linear-gradient(
       rgba(210, 13, 29, 0.79) 0%,
       rgba(9, 1, 9, 0.471) 100%
@@ -224,23 +229,20 @@ p {
     font-size: 20px;
 }
 
+/*Adding Media Screens for responsive design*/
 
-/* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design 
-  /* @media screen and (min-width: 768px) {
-    /* on tablets, set columns to only be 50% of the width and not grow 
-    .about-card {
-      flex: 0 0 50%;
-      max-width: 50%;
+/* cards split into two columns at 992px or smaller*/
+@media screen and (max-width:992px) {
+    .card {
+      width: 50%;
     }
-  
-  } */
-  
-  /* media query for larger screens */
-  /* @media screen and (min-width: 992px) {
-  
-    .about-card {
-      flex: 0 0 33.333%;
-      max-width: 33.333%;
+   
+  }
+
+  /* cards so are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width:768px) {
+    .card {
+      width: 100%;
     }
     
-  } */
+  }
