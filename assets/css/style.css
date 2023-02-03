@@ -67,7 +67,7 @@ p {
 .image-graphic {
     height: 600px;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     background-image: url("/assets/images/banner-graphic.jpg");
     background-size: cover;
     background-position: center;
@@ -77,14 +77,17 @@ p {
 .about-portfolio {
     color: white;
     text-align: center;
-    padding: 5px;
+    padding: 0 5px 5px 5px;
+    background-image: linear-gradient(
+      rgba(103, 81, 83, 0.79) 0%,
+      rgba(9, 1, 9, 0.471) 100%
+    );
     
 }
 
 .about-portfolio h3 {
     font-size: 36px;
     padding: 15px;
-    border:#ee11a4;
 }
 
 .about-portfolio p {
@@ -99,16 +102,32 @@ p {
     padding-top: 30px;
 }
 
-/* Structuring the about me card */
+.about-me h2 {
+    font-size: 25px;
+}
+
+/* Structuring cards on portfolio */
 
 .card { 
     background-color: rgba(255, 192, 203, 0);
     width: 20%;
-    height: 33.33%;
     margin: 10px;
     flex-wrap: wrap;
     border-radius:10px;
     justify-content:space-around;
+}
+
+/*Launch button style for portfolio cards*/
+.card a { 
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    margin: 20px 50px;
 }
 
 /* Positioning the image on the card and adding radius*/
@@ -150,11 +169,61 @@ p {
     
 }
 
+/*Adding style to project section cards */
 .projects {
-    display: flex;
+    display:flex;
     justify-content: center;
     padding-top: 30px;
 }
+
+.projects h4 {
+    font-size: 25px;
+    padding: 5px;
+}
+
+/*Adding style to contact me sections*/
+
+.contact-me {
+    background-image: linear-gradient(
+        rgba(9, 1, 9, 0.471) 0%,
+        rgba(210, 13, 29, 0.79) 90%
+      );
+    color: white;
+    text-align: center;
+    padding: 0 5px 5px 5px;
+}
+
+.contact-me h5 {
+    font-size: 36px;
+    padding: 20px;
+    color:white;
+    margin:15px;
+}
+
+.contact {
+    display:flex;
+    justify-content: center;
+    background-image: linear-gradient(
+      rgba(210, 13, 29, 0.79) 0%,
+      rgba(9, 1, 9, 0.471) 100%
+    );
+}
+
+.contact img {
+    max-width: 50px;
+    max-height: 50px
+}
+
+/*Adding simple Styling to Footer*/
+
+.footer {
+    color: white;
+    text-align:center;
+    margin: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
 
 /* using a mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design 
   /* @media screen and (min-width: 768px) {
