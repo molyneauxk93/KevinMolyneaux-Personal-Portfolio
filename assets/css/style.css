@@ -69,7 +69,7 @@ p {
     height: 600px;
     width: 100%;
     margin-bottom: 0px;
-    background-image: url("/assets/images/banner-graphic.jpg");
+    background-image: url("../images/banner-graphic.jpg");
     background-size: cover;
     background-position: center;
 }
