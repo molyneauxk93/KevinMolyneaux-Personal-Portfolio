@@ -101,9 +101,10 @@ p {
 /*Styling about me section with cards */
 
 .about-me {
-    display: flex;
-    justify-content: flex-end;
+    display:flex;
+    justify-content:flex-end;
     padding-top: 30px;
+    min-width: 40%;
 }
 
 .about-me h2 {
@@ -245,11 +246,11 @@ p {
     }
 
     /*attempt to stop about me card text from spilling on to the portfolio highlight*/
-    .card p {
+    /* .card p {
         text-align: right;
         font-size: 16px;
         
-    }
+    } */
    
   }
 
@@ -259,10 +260,16 @@ p {
       width: 100%;
     }
 
+    /*Change nav bar text color to make easier to read in smaller viewing*/
+    a {
+        color: rgb(255, 252, 50);
+        
+    }
+
     /*attempt to stop about me card text from spilling on to the portfolio highlight*/
-    .card p {
+    /* .card p {
         text-align: right;
         font-size: 16px;
-    }
+    } */
 
   }
