@@ -1,4 +1,4 @@
-# Module 2 Challenge - Student Portfolio
+# Personal Portfolio
 
 ## Description
 
