@@ -5,7 +5,7 @@
 Created a personal portfolio using HTML and CSS to highlight myself as well as some projects that I have worked on so far.
 This webpage consists of an About Me section, Portfolio highlights section, and a contact me section. There is also a link to my Github in the nav bar, as well as the Portfolio highlights.
 
-Published website:  https://molyneauxk93.github.io/KevinMolyneaux-Portfolio-Challenge/
+Published website:   https://molyneauxk93.github.io/KevinMolyneaux-Personal-Portfolio/
 
 ## Installation
 
